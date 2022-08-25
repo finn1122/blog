@@ -1,0 +1,16 @@
+@import "tailwindcss/base";
+
+@import "tailwindcss/components";
+
+@import "tailwindcss/utilities";
+
+
+@layer base{
+    h1 base{
+        @apply text-2xl;
+    }
+
+    h2{
+        @apply text-xl;
+    }
+}
